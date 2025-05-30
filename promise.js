@@ -7,7 +7,7 @@ const p2= new Promise((resolve, reject)=>{
 });
 
 const p3= new Promise((resolve, reject)=>{
-    setTimeout(()=> reject("p3 fail"),10000);
+    setTimeout(()=> reject("p3 fail"),1000);
 }); 
 
 Promise.race([p1,p2,p3])
