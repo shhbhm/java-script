@@ -1,0 +1,9 @@
+rest api - json
+
+get /user which lists all users
+get /users/1 get the user with id 1
+
+
+post
+patch
+delete
